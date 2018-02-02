@@ -168,3 +168,5 @@ function previewImage(file, callback) { //file为plupload事件监听函数参�
         preloader.load(file.getSource());
     }
 }
+
+
