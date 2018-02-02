@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="./clipboard.js"></script>
+</head>
+<body>
+<button class="js-copy">复制到剪切板</button>
+</body>
+<script>
+    // https://www.cnblogs.com/52fhy/p/5383813.html
+   var clipboard = new Clipboard('.js-copy', {
+    text: function() {
+        return `Tao Bao (China) Software Co., Ltd.
+vkOLyJFcg1iOzfCJwjwXollTMrcweY1hg71bA1tUaceirUIqsnqngHNUNF9UxmGJ `;
+    }
+});
+</script>
+</html>
